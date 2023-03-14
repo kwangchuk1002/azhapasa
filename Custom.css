@@ -1,0 +1,27 @@
+location {
+	margin: 12px;
+	width: 6rem;
+	height: 6rem;
+	position: fixed;
+	right: 200px;
+	bottom: 12px;
+	color: #fff;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	line-height: 1;
+	border-radius: 50%;
+	border: none;
+	background-color: #f492e9;
+	font-size: 3rem;
+	z-index: 9999;
+}
+
+.location:hover,
+.location:focus {
+	color: #fff;
+}
+.location-modal .modal-content .modal-header {
+	border-bottom: none;
+}
